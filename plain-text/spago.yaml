@@ -1,0 +1,12 @@
+package:
+  name: plain-text
+  dependencies:
+    - debug
+    - extra
+    - ffi
+    - prelude
+  test:
+    main: Test.PlainText
+    dependencies:
+      - spec
+      - spec-node

@@ -1,0 +1,13 @@
+package:
+  name: popper
+  dependencies:
+    - extra
+    - ffi
+    - console
+    - debug
+    - effect
+    - exceptions
+    - maybe
+    - numbers
+    - prelude
+    - strings

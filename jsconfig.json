@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@PlainText/*": ["plain-text/src/PlainText/*"]
+        }
+    }
+}

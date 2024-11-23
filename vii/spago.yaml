@@ -1,0 +1,12 @@
+package:
+  name: vii
+  dependencies:
+    - console
+    - debug
+    - effect
+    - prelude
+  test:
+    main: Test.Vi
+    dependencies:
+      - spec
+      - spec-node

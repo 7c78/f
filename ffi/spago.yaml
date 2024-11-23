@@ -1,0 +1,13 @@
+package:
+  name: ffi
+  dependencies:
+    - extra
+    - nullable
+    - prelude
+  test:
+    main: Test.FFI.Main
+    dependencies:
+      - quickcheck
+      - spec
+      - spec-node
+      - spec-quickcheck
