@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
+        <link rel="stylesheet" href="popper.css">
+        <title>popper</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h2>Placement</h2>
+                <div class="container">
+                    <div id="case1_ref" class="reference">reference</div>
+                    <div id="case1_float" class="floating">floating</div>
+                </div>
+                <div class="cluster">
+                    <button id="case1_btn_ts">top-start</button>
+                    <button id="case1_btn_t">top</button>
+                    <button id="case1_btn_te">top-end</button>
+                    <button id="case1_btn_rs">right-start</button>
+                    <button id="case1_btn_r">right</button>
+                    <button id="case1_btn_re">right-end</button>
+                    <button id="case1_btn_bs">bottom-start</button>
+                    <button id="case1_btn_b">bottom</button>
+                    <button id="case1_btn_be">bottom-end</button>
+                    <button id="case1_btn_ls">left-start</button>
+                    <button id="case1_btn_l">left</button>
+                    <button id="case1_btn_le">left-end</button>
+                </div>
+            </section>
+            <section>
+                <h2>Offset</h2>
+                <div class="container">
+                    <div id="case2_ref" class="reference">10px</div>
+                    <div id="case2_float" class="floating">floating</div>
+                </div>
+                <div class="cluster">
+                    <button id="case2_btn_t">top</button>
+                    <button id="case2_btn_r">right</button>
+                    <button id="case2_btn_b">bottom</button>
+                    <button id="case2_btn_l">left</button>
+                </div>
+            </section>
+            <section>
+                <h2>Flip</h2>
+                <div class="container">
+                    <div class="scroll" style="position: relative">
+                        <div id="case3_ref" class="reference">reference</div>
+                        <div id="case3_float" class="floating">floating</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="popper.js"></script>
+    </body>
+</html>
